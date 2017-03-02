@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<article>
+    <hgroup>
+        <h1>我是标题</h1>
+        <cite>《我是作品标题》</cite><br>
+        <span>我是时间 <time pubdate="" datetime="2017-03-02">2017年03月02日</time></span>
+        <p>我是内容</p>
+    </hgroup>
+    <section>
+        <blockquote>我是引文我是引文我是引文我是引文我是引文我是引文</blockquote>
+        <figure>
+            <img alt="" src="images/sess1.jpg">
+            <figcaption>我是图片</figcaption>
+        </figure>
+        <table borde="1">
+            <caption>我是表格标题</caption>
+            <thead>
+            <tr>
+                <th>我是表格头部1</th>
+                <th>我是表格头部2</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>我是内容1</td>
+                <td>我是内容1</td>
+            </tr>
+            <tr>
+                <td>我是内容1</td>
+                <td>我是内容1</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td>我是表格结尾1</td>
+                <td>我是表格结尾2</td>
+            </tr>
+            </tfoot>
+            </tr>
+        </table>
+    </section>
+    <footer>
+        我是文章页脚
+    </footer>
+</article>
+<aside>
+    <hgroup>
+        <h2>我是标题标签</h2>
+        <p>我是内容</p>
+    </hgroup>
+    <code>
+        document.getELementById("id1");
+        document.getELementById("id2");
+        document.getELementById("id3");
+    </code>
+    <br>
+    <span>不用code标签：</span>document.getELementById("id4");
+    <pre>
+                静夜思
+              作者：李白
+        床前明月光，疑是地上霜。
+        举头望明月，低头思故乡。
+    </pre>
+
+
+    <dialog>
+        <h3>百度ife到底怎么样？</h3>
+        <p>当然棒啦！还等什么，学完就能秒变大神！</p>
+        <button id="close">Close</button>
+    </dialog>
+    <button id="show">Open Dialog!</button>
+    <script type="text/javascript">
+        var dialog = document.querySelector('dialog');
+        document.querySelector('#show').onclick = function () {
+            dialog.show();
+        };
+        document.querySelector('#close').onclick = function () {
+            dialog.close();
+        };
+    </script>
+</aside>
+</body>
+</html>
+
+
+<article>
+    <hgroup>
+        <h1></h1>
+        <h2></h2>
+    </hgroup>
+    <section></section>
+    <footer></footer>
+</article>
