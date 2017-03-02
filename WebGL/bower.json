@@ -1,0 +1,13 @@
+{
+  "name": "three",
+  "description": "three.js webGL",
+  "main": "index,html",
+  "keywords": [
+    "three"
+  ],
+  "authors": [
+    "yyc"
+  ],
+  "license": "MIT",
+  "homepage": ""
+}
